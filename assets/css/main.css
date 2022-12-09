@@ -1,0 +1,1542 @@
+body {
+    overflow-x: hidden;
+}
+
+.controle {
+    max-width: 1920px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 298px;
+}
+
+
+/*SEÇÃO 1*/
+#secao1 {
+    background: url(../images/secao1.jpg) no-repeat top center;
+    height: 1022px;
+    box-sizing: border-box;
+}
+
+#secao1 .controle {
+    padding: 0 142px;
+}
+
+#secao1 .logo {
+    padding: 45px 0 102px 0;
+}
+
+#secao1 .logo-produto {
+    margin-bottom: 90px;
+}
+#secao1 h2 {
+    padding-left: 160px;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 94px;
+}
+
+#secao1 h2 span {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 41px;
+    color: #EE7342;
+}
+
+
+/*SEÇÃO 2*/
+#secao2 {
+    background: url(../images/secao2.jpg) no-repeat top center;
+    height: 1239px;
+    box-sizing: border-box;
+}
+
+#secao2 h2 {
+    padding: 101px 0 50px 0;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #EE7342;
+}
+
+#secao2 .texto1, .texto2 {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 35px;
+}
+
+#secao2 h3 {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #EE7342;
+    padding-bottom: 58px;
+}
+
+#secao2 .animacao {
+    display: flex;
+    height: 755px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#secao2 .animacao ul {
+    margin-top: 54px;
+}
+
+#secao2 .animacao ul li {
+    width: 260px;
+    border-radius: 10px;
+    border: 1px solid #EE7342;
+    height: 57px;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: center;
+    color: #EE7342;
+    margin: 34px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
+#secao2 .animacao ul li:hover {
+    background-color: #EE7342;
+    color: #000000;
+    transition: 1s;
+}
+
+#secao2 .animacao .imagens {
+    text-align: center;
+}
+
+#secao2 .animacao #img-item {
+    position: relative; 
+    bottom: 704px;
+}
+
+#secao2 .mob, .conteudo-mob {
+    display: none;
+}
+
+
+/*SEÇÃO 3*/
+#secao3 {
+    background: url(../images/secao3.jpg) no-repeat top center;
+    height: 803px;
+    box-sizing: border-box;
+}
+
+#secao3 h2 {
+    padding-top: 234px;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+#secao3 p {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    padding: 43px 0 58px 0;
+}
+
+#secao3 li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 47px;
+    color: #292929;
+}
+
+#secao3 img {
+    margin-right: 10px;
+}
+
+
+/*SEÇÃO 4*/
+#secao4 {
+    background: url(../images/secao4.jpg) no-repeat top center;
+    box-sizing: border-box;
+}
+
+#secao4 .controle {
+    display: flex;
+    padding: 0;
+    height: 706px;
+}
+
+#secao4 video {
+    height: 100%;
+}
+
+#secao4 h2 {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #EE7342;
+    margin: 160px 0 44px 118px;
+}
+
+#secao4 .pergunta {
+    border: 1px solid #EE7342;
+    border-radius: 10px;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 8px 0;
+    text-align: center;
+    color: #EE7342;
+    width: 482px;
+    margin-left: 118px;
+}
+
+#secao4 .texto {
+    margin: 36px 0 0 118px;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #F7F6F6;
+}
+
+#secao4 .videomob {
+    display: none;
+}
+
+
+/*SEÇÃO 5*/
+#secao5 {
+    background: url(../images/secao5.jpg) no-repeat top center;
+    height: 611PX;
+    box-sizing: border-box;
+}
+
+#secao5 h2 {
+    padding: 220px 0 38px 0;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+#secao5 span {
+    font-size: 35px;
+}
+
+#secao5 p {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+
+
+/*SEÇÃO 6a*/
+#secao6a {
+    background: url(../images/secao6a.jpg) no-repeat top center;
+    height: 647px;
+    box-sizing: border-box;
+}
+
+#secao6a h2 {
+    padding: 146px 0 43px 0;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #EE7342;
+}
+
+#secao6a p {
+    padding-bottom: 31px;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+
+/*SEÇÃO 6b*/
+#secao6b {
+    background: url(../images/secao6b.jpg) no-repeat top center;
+    height: 647px;
+    box-sizing: border-box;
+}
+
+#secao6b .controle {
+    padding: 0 50px;
+    display: flex;
+}
+
+#secao6b .vazio {
+    width: 50%;
+}
+
+
+#secao6b .conteudo {
+    width: 50%;
+    text-align: end;
+}
+
+#secao6b h2 {
+    padding: 204px 0 43px 0;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #EE7342;
+}
+
+#secao6b p {
+    padding-bottom: 35px;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+
+/*SEÇÃO 7*/
+#secao7 {
+    background: url(../images/secao7.jpg) no-repeat top center;
+    box-sizing: border-box;
+}
+
+#secao7 .controle {
+    display: flex;
+    padding: 0;
+    height: 951px;
+}
+
+#secao7 .vazio {
+    width: 50%;
+}
+
+#secao7 .box {
+    background: rgba(48, 48, 48, 0.9);
+    margin: 223px 0 0 70px;
+    padding: 56px 50px;
+    height: 400px;
+}
+
+#secao7 h2 {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 52px;
+}
+
+#secao7 p {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding-bottom: 34px;
+}
+
+
+/*SEÇÃO 8*/
+#secao8 {
+    background: url(../images/secao8.jpg) no-repeat top center;
+    box-sizing: border-box;
+}
+
+#secao8 .controle {
+    padding: 0;
+}
+
+#secao8 .conteudo {
+    padding: 100px 0 0 218px;
+}
+
+#secao8 .box {
+    display: flex;
+    justify-content: space-between;
+}
+
+#secao8 h2 {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #EE7342;
+    padding-bottom: 60px;
+}
+
+#secao8 span {
+    font-size: 35px;
+}
+
+#secao8 p {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding-bottom: 32px;
+}
+
+#secao8 .especial {
+    border-radius: 10px;
+    border: 1px solid #EE7342;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #EE7342;
+    text-align: center;
+    padding: 16px;
+}
+
+
+/*SEÇÃO 9*/
+#secao9 {
+    background: url(../images/secao9.jpg) no-repeat top center;
+    box-sizing: border-box;
+    height: 709px;
+}
+
+#secao9 .controle {
+    padding: 0;
+    display: flex;
+}
+
+#secao9 .conteudo {
+    margin-left: 150px;
+}
+
+#secao9 .vazio {
+    width: 50%;
+}
+
+#secao9 .conteudo h2 {
+    padding: 135px 0 38px 0;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+#secao9 .conteudo .box {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 28px;
+    color: #EE7342;
+    border: 1px solid #EE7342;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+#secao9 .conteudo .texto{
+    padding: 0 0 38px 0;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#secao9 .lavaloucas img {
+    float: left;
+    margin-right: 20px;
+}
+
+#secao9 .lavaloucas p {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 26px;
+    color: #000000;
+}
+
+
+/*SEÇÃO 10*/
+#secao10 {
+    background: url(../images/secao10.jpg) no-repeat top center;
+    box-sizing: border-box;
+    height: 624px;
+}
+
+#secao10 .controle {
+    padding: 0;
+    display: flex;
+}
+
+
+#secao10 .conteudo {
+    margin-left: 150px;
+}
+
+#secao10 .vazio {
+    width: 50%;
+}
+
+#secao10 .conteudo h2 {
+    padding: 193px 0 45px 0;
+    font-family: 'Cairo';
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 45px;
+    color: #000000;
+}
+
+#secao10 .conteudo .texto{
+    padding: 0 0 38px 0;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+/*SEÇÃO 11*/
+#secao11 {
+    background: url(../images/secao11.jpg) no-repeat top center;
+    box-sizing: border-box;
+    height: 1577px;
+}
+
+#secao11 .linha1, .linha2 {
+    display: flex;justify-content: space-between;
+}
+
+#secao11 .linha1 {
+    padding: 644px 0 118px 0;
+}
+
+#secao11 h2 {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 45px;
+    color: #EE7342;
+    padding: 32px 0 50px 0;
+}
+
+#secao11 p {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    }
+
+#secao11 .final {
+    text-align: end;
+}
+
+/*GARANTIA*/
+
+#garantia {
+    background: url(../images/garantia.jpg) no-repeat top center;
+    box-sizing: border-box;
+    height: 710px;
+}
+
+#garantia .controle {
+    padding: 0;
+    display: flex;
+}
+
+#garantia .vazio {
+    width: 50%;
+}
+
+#garantia .conteudo {
+    width: 50%;
+    padding-left: 100px;
+}
+
+#garantia img {
+    padding-top: 183px;
+}
+
+#garantia h2 {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 18px 0 48px 0;
+}
+
+#garantia p {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+
+/*FOOTER - MEDIDAS*/
+#medidas {
+    background: url(../images/footer.jpg) no-repeat top center;
+    box-sizing: border-box;
+}
+
+#medidas .controle {
+    display: flex;
+    height: 928px;
+    padding-top: 126px;
+}
+
+#medidas .dimensoes, .embalagem {
+    padding-bottom: 125px;
+}
+
+#medidasd .embalagem-mob {
+    display: none;
+}
+
+#medidas .controle .conteudo {
+    width: 50%;
+}
+
+#medidas .controle img {
+    width: 580px;
+}
+
+#medidas h2 {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 45px;
+    color: #EE7342;
+    text-transform: uppercase;
+    width: 100%;
+    padding-bottom: 45px;
+}
+
+#medidas li {
+    list-style: square;
+    color: #EE7342;
+}
+
+#medidas li span {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+#medidas li b {
+    font-weight: 700;
+}
+
+/*FOOTER*/
+#footer-bottom {
+    background: url(../images/bg-footer.jpg) no-repeat top center;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+#footer-bottom .controle {
+    display: flex;
+    padding: 103px 298px;
+    justify-content: space-between;
+}
+
+#footer-bottom .controle p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+
+
+@media screen and (max-width: 1790px) {
+    /*FOOTER*/
+    #footer-bottom .controle {
+        flex-direction: column;
+        padding-top: 80px;}
+    #footer-bottom .img {
+        text-align: center;}
+    #footer-bottom .controle p {
+        text-align: center;
+        margin-top: 10px;}}
+
+
+
+/*------------------*/
+
+@media screen and (max-width: 1696px) {
+    .controle {
+        padding: 0 198px;}
+
+    /*SEÇÃO 8*/
+    #secao8 .box {
+        justify-content: baseline;}
+    #secao8 .conteudo {
+        padding: 100px 0 0 100px;}}
+
+/*------------------*/
+
+@media screen and (max-width: 1565px) {
+    .controle {
+        padding: 0 128px;}
+
+    /*SEÇÃO 1*/
+    #secao1 h2 {
+        padding-left: 50px;}
+
+    /*SEÇÃO 4*/
+    #secao4 .controle {
+        display: flex;
+    align-items: center;}
+    #secao4 .conteudo-s4 {
+        width: 50%;}
+    #secao4 h2 {
+        font-size: 35px;
+    line-height: 35px;}
+    #secao4 .pergunta {
+        font-size: 20px;
+        width: 250px;
+        margin: 30px 0 0 50px;}
+    #secao4 .texto {
+        width: 320px;
+        margin: 30px 0 0 50px;}
+    #secao4 .video {
+        width: 50%;}
+    #secao4 video {
+        width: 100%;}
+
+    #secao4 h2 {
+        margin: 30px 0 0 50px;}
+
+    /*SEÇÃO 8*/
+    #secao8 {
+        background: url(../images/meio-secao8.jpg) no-repeat top center;}
+    #secao8 .box {
+        height: 700px;}
+    #secao8 .conteudo {
+        padding-top: 50px;}
+    #secao8 h2 {
+        padding-bottom: 50px;}
+    #secao8 video {
+        transform: rotate(-90deg);
+        width: 700px;
+        justify-items: flex-end;}
+
+    /*SEÇÃO 9*/
+    #secao9 .conteudo {
+        margin-left: 80px;}
+        
+    /*SEÇÃO 10*/
+    #secao10 .conteudo {
+        margin-left: 80px;}}
+
+/*------------------*/
+
+@media (max-width: 1375px) {
+    /*SEÇÃO 2*/
+    #secao2 {
+        height: 1000px;}
+    #secao2 .animacao .imagens .img-cesta{ 
+        width: 400px;}
+    #secao2 .animacao .imagens #img-item{ 
+        width: 300px;
+        bottom: 430px;}
+    #secao2 .animacao ul li {
+        width: 200px;
+        font-size: 18px;}
+
+    /*SEÇÃO 3*/
+    #secao3 .conteudo-s3 {
+        width: 400px;}
+
+    /*SEÇÃO 3*/
+    #secao5 .conteudo-s5 {
+        width: 350px;}
+    #secao3 li {
+        line-height: 20px;}
+        
+    /*SEÇÃO 6*/
+    #secao6a p {
+        font-size: 18px;
+        width: 350px;
+        padding-bottom: 15px;}
+    #secao6b p {
+        font-size: 18px;
+        padding-bottom: 15px;}
+    #secao6b .conteudo {
+        text-align: end;}
+    
+    /*SEÇÃO 7*/
+    #secao7 .box {
+        height: 480px;
+        margin: 223px 0 0 0;
+        padding: 40px 50px;}
+    #secao7 h2 {
+        font-size: 35px;
+        padding-bottom: 15px;}
+    #secao7 p {
+        padding-bottom: 22px;}
+
+    /*SEÇÃO 9*/
+    #secao9 .conteudo {
+        margin-left: 30px;}
+
+    /*MEDIDAS*/
+    #medidas h2 {
+        font-size: 30px;
+        line-height: 35px;
+        padding-bottom: 35px;}  
+    #medidas .controle {
+        padding-top: 30px;} 
+    .embalagem, .dimensoes {
+        padding-bottom: 50px;}}
+        
+
+@media (max-width: 1240px) {
+    /*SEÇÃO 8*/
+    #secao8 video {
+        width: 350px;} 
+    #secao8 .box {
+        justify-content: center;}
+    #secao8 .conteudo {
+        padding: 30px;}
+    #secao8 h2 {
+        padding: 30px 0;}
+    #secao8 h2 span{
+           font-size: 23px;
+        line-height: 15px;}
+    #secao8 p {
+            font-size: 18px;
+        line-height: 18px;}
+}
+
+@media (max-width: 1070px) {
+    /*SEÇÃO 8*/
+    #secao8 {
+        
+    }
+    #secao8 .conteudo {
+        padding: 30px;}
+    #secao8 h2 {
+        padding: 30px 0;}
+    #secao8 h2 span{
+        font-size: 23px;
+        line-height: 15px;}
+    #secao8 p {
+        font-size: 18px;
+        line-height: 18px;}
+        
+    /*SEÇÃO 11*/
+    #secao11 h2 {
+        font-size: 35px;
+        line-height: 35px;}
+
+    /*GARANTIA*/
+    #garantia .conteudo  {
+        padding-left: 50px;}
+}
+
+
+@media (max-width: 780px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    /*SEÇÃO 1*/
+    #secao1 {
+        background: url(../images/mob-secao1.jpg) no-repeat top center;
+        height: 1396px;
+    }
+
+    #secao1 .controle  {
+        padding: 0;
+    }
+
+    #secao1 .logo {
+        text-align: center;
+        padding: 31px 0 89px 0;
+    }
+
+    #secao1 .logo-produto {
+        text-align: center;
+        margin-bottom: 71px;
+    }
+
+    #secao1 h2 {
+        font-size: 34.431px;
+        line-height: 39px;
+        text-align: center;
+        margin-bottom: 78px;
+        padding: 0;
+    }
+
+    #secao1 h2 span {
+        font-size: 43.2847px;
+        line-height: 40px;
+    }
+
+    #secao1 .selo {
+        text-align: center;
+    }
+
+    /*SEÇÃO 2*/
+    #secao2 {
+        background: url(../images/mob-secao2.jpg) no-repeat top center;
+        height: 3556px;
+    }
+
+    #secao2 .controle {
+        padding: 0;
+    }
+
+    #secao2 .mob {
+        display: inline;
+        position: relative;
+    }
+
+
+    #secao2 .conteudo-mob {
+        display: inline;
+        padding: 0 230px;
+    }
+
+    #secao2 .conteudo-mob h2 {
+        font-size: 40px;
+        line-height: 40px;
+        padding: 80px 0 32px 0;
+    }
+
+    #secao2 .conteudo-mob .texto {
+        font-family: 'Cairo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-bottom: 96px;
+    }
+
+    #secao2 .conteudo-mob h3 {
+        font-size: 23px;
+        line-height: 25px;
+        padding-bottom: 45px;
+    }
+
+    #secao2 .mob .item{
+        text-align: center;
+    }
+
+    #secao2 .mob .cesta{
+        padding-bottom: 78px;
+    }
+
+    #secao2 .mob h3 {
+        font-family: 'Cairo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 35px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-bottom: 45px;
+    }
+
+    #secao2 .animacao, .conteudo {
+        display: none;
+    }
+
+
+    /*SEÇÃO 3*/
+    #secao3 {
+        background: url(../images/mob-secao3.jpg) no-repeat top center;
+        height: 1200px;
+    }
+
+    #secao3 h2 {
+        padding: 106px 0 2px 0;
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    #secao3 p {
+        padding: 0 0 83px 0;
+        width: 310px;
+    }
+
+    #secao3 p br {
+        display: none;
+    }
+
+    #secao3 li {
+        font-size: 20px;
+        line-height: 20px;
+        padding-bottom: 23px;
+        width: 309px;
+    }
+
+    #secao3 .conteudo-s3 {
+        width: 327px;
+        margin: 0 auto;
+    }
+
+    #secao3 li img {
+        float: left;
+    }
+
+    #secao3 .controle {
+        padding: 0;
+    }
+
+    /*SEÇÃO 4*/
+
+    #secao4 .videomob {
+        display: inline;
+        margin-top: 110px;
+  
+    }
+
+    #secao4 {
+        height: none;
+    }
+    
+    #secao4 .controle {
+        display: inline;
+        padding: 0;
+    }
+
+    #secao4 .video {
+        display: none;
+    }
+
+    #secao4 .conteudo-s4 {
+        background: url(../images/mob-secao4.jpg);
+        padding: 48px 0 0 0;
+        width: 322px;
+        margin: 0 auto;
+        margin-bottom: 90px;
+    }
+
+    #secao4 h2 {
+        width: 320px;
+        font-size: 40px;
+        line-height: 40px;
+        margin: 0 0 30px 0;
+    }
+
+    #secao4 br {
+        display: none;
+    }
+
+    #secao4 .pergunta {
+        font-size: 20px;
+        line-height: 25px;
+        padding: 18px 28px;
+        text-align: left;
+        color: #EE7342;
+        width: auto;
+        margin-left: 0;
+    }
+
+    #secao4 .texto {
+        width: auto;
+        margin: 43px 0 0 0;
+        font-family: 'Cairo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        color: #F7F6F6;
+    }
+
+    #secao4 br {
+        display: none;
+    }
+
+    #secao4 .video-mob video {
+        
+    }
+
+    #mobile4 {
+        height: 704px;
+        width: 780px;
+        background: url(../images/mobile4.jpg);
+    }
+
+    #mobile4 h2 {
+        font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+
+    text-transform: uppercase;
+
+    color: #EE7342;
+    }
+
+    .pergunta-s4 {
+        font-size: 20px;
+        line-height: 25px;
+        padding: 18px 28px;
+        text-align: left;
+        color: #EE7342;
+        width: 298px;
+        margin-left: 0;
+    }
+
+    .texto-s4 {
+        font-family: 'Cairo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+/* or 125% */
+
+
+color: #F7F6F6;
+    }
+
+    .area {
+        margin: 0 auto;
+        width: 322px;
+        padding-top: 100px;
+    }
+
+
+    /*SEÇÃO 5*/
+    #secao5{
+        background: url(../images/mob-secao5.jpg);
+        height: 637px;
+        padding: 10px 0 0;
+    }
+
+    #secao5 .conteudo-s5 {
+        margin: 0 auto;
+        width: 320px;
+    }
+
+    #secao5 .controle {
+        padding: 0;
+    }
+    #secao5 h2 {
+        font-size: 40px;
+line-height: 40px;
+    }
+
+    #secao h2 span {
+        font-size: 35px;
+line-height: 40px;
+    }
+
+
+
+    #secao6 {
+        background: url(../images/mob-secao6.jpg) no-repeat top center;
+        height: 2094px;
+    }
+
+    #secao6 h2 {
+        font-family: 'Cairo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        text-transform: uppercase;  
+        color: #EE7342;
+        padding-bottom: 61px;
+        width: 360px;
+    }
+    #secao6 p{
+        font-family: 'Cairo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        color: #FFFFFF;
+    }
+
+    #secao6 .conteudo-cima {
+        padding-top: 546px;
+        width: 305px;
+        margin: 0 auto;
+    }
+
+    #secao6 .conteudo-baixo {
+        padding-top: 127px;
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    #secao6 .controle {
+        padding: 0;
+    }
+
+
+    #secao7 {
+        background: url(../images/mob-secao7.jpg) no-repeat top center;
+        height: 906px;
+        padding-top: 107px;
+    }
+
+    #secao7 .controle {
+        display: inline;
+        margin: 0 0;
+    }
+
+    #secao7 .box {
+        width: 330px;
+        height: 662px;
+        margin: 0 auto;
+        padding: 37px;
+    }
+
+    #secao7 h2 {
+        width: 285px;
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 73px;
+    }
+
+    #secao7 br {
+        display: none;
+    }
+
+    #secao7 p {
+        font-size: 20px;
+        line-height: 25px;
+        width: 305px;
+
+        padding-bottom: 19px;
+    }
+
+    #secao8 {
+        background: url(../images/mob-secao8.jpg) no-repeat top center;
+        height: 1367px;
+    }
+
+    #secao8 .box{
+        flex-direction: column-reverse;
+        height: 1367px;
+        justify-content: flex-end;
+    }
+
+    #secao8 video {
+        width: 500px;
+    }
+
+    #secao8 .conteudo {
+        display: inline;
+    }
+
+    #secao9 {
+        background: url(../images/mob-secao9.jpg) no-repeat top center;
+        height: 1131px;
+    }
+
+    #secao9 .vazio{
+        display: none;
+    }
+
+    #secao9 .controle {
+        display: inline;}
+
+    #secao9 .conteudo {
+        display: inline;
+        width: 320px;
+        padding: 0 auto;}
+
+    #secao9 h2 {
+        width: 320px;
+        font-size: 40px;
+        line-height: 40px;
+        margin: 0 auto;}
+
+    #secao9 .box {
+        font-size: 24px;
+        line-height: 28px;
+        width: 320px;
+        padding: 5px;
+        margin: 0 auto 50px auto;
+    }
+
+    #secao9 .texto {
+        width: 320px;
+        font-size: 20px;
+        line-height: 25px;
+        margin: 0 auto;
+    }
+
+    #secao9 .texto br {
+        display: none;
+    }
+
+    #secao9 .lavaloucas {
+        margin: 0 auto;
+        width: 300px;
+    }
+    
+
+    #secao10 {
+        background: url(../images/mob-secao10.jpg) no-repeat top center;
+        height: 1021px;
+    }
+
+    #secao10 .controle{
+        display: inline;
+    }
+
+    #secao10 .vazio{
+        display: none;
+    }
+
+    #secao10 .conteudo {
+        display: inline;
+    }
+
+    #secao10 .conteudo h2 {
+        font-size: 40px;
+        line-height: 40px;
+        width: 320px;
+        color: #EE7342;
+        margin: 0 auto;
+        padding: 120px 0 51px 0;
+    }
+
+    #secao10 .conteudo .texto {
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        width: 312px;
+        margin: 0 auto;
+    }
+
+    #secao10 br {
+        display: none;
+    }
+
+
+    #secao11 {
+        background: url(../images/mob-secao11.jpg) no-repeat top center;
+        height: 2483px;
+    }
+
+    #secao11 .controle {
+        padding: 0 0;
+    }
+
+
+    #secao11 .linha1 {
+        display: inline;
+    }
+
+    #secao11 .linha1-cima {
+        padding-top: 610px;
+    }
+    
+
+    #secao11 .linha1 div {
+        text-align: center;
+    }
+
+    
+    #secao11 .linha2 {
+        display: inline;
+    }
+
+    #secao11 .linha2 div {
+        text-align: center;
+    }
+
+    #secao11 h2 {
+        font-size: 40px;
+        line-height: 40px;
+        width: 262px;
+        margin: 0 auto;
+    }
+
+    #secao11 p {
+        width: 299px;
+        margin: 0 auto;
+        font-size: 20px;
+        line-height: 25px;
+        padding-bottom: 113px;
+    }
+
+    #secao11 p br {
+        display: none;
+    }
+
+
+    #garantia {
+        background: url(../images/mob-garantia.jpg) no-repeat top center;
+        height: 1007px;
+    }
+
+    #garantia .controle {
+        display: inline;
+        
+    }
+
+    #garantia .vazio {
+        display: none;
+    }
+
+    #garantia .conteudo {
+        display: inline;
+        text-align: center;
+        padding: 0 auto;
+    }
+
+    #garantia img  {
+        padding-top: 547px;
+        margin: 0 auto;
+    }
+
+    
+    #medidas {
+        background: url(../images/mob-footer-medidas.jpg) no-repeat top center;
+        height: 1463px;
+    }
+
+    #medidas .controle {
+        display: inline;
+        padding: 0;
+    }
+
+    #medidas .conteudo {
+        display: inline;
+    }
+
+    #medidas .controle img {
+        width: 294px;
+    }
+
+    #medidas .embalagem-mob {
+        margin: 0 auto;
+        width: 299px;
+    }
+
+    #medidas .img {
+        text-align: center;
+    }
+
+    #medidas .embalagem{
+        display: none;
+    }
+
+    #medidas h2 {
+        padding-top: 122px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    
+    #medidas .dimensoes {
+        width: 306px;
+        margin: 0 auto;
+    }
+
+    #footer-bottom {
+        background: url(../images/mob-footer.jpg) no-repeat top center;
+        height: 469px;
+    }
+
+    #footer-bottom .controle {
+        display: inline;
+        padding: 0;
+    }
+
+    #footer-bottom p {
+        width: 320px;
+        font-size: 12px;
+        line-height: 20px;
+        margin: 0 auto;
+    }
+
+    #footer-bottom br {
+        display: none;
+    }
+
+    #footer-bottom .img {
+        padding: 91px 0 47px 0;
+    }
+}
+
